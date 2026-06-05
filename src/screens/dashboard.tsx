@@ -84,7 +84,7 @@ export default function Dashboard({ navigation }: any) {
             {/* Botão de Cadastro Dinâmico */}
             <View style={{ marginBottom: 15 }}>
                 <Button
-                    title={`Cadastrar Novo ${aba.slice(0, -1)}`}
+                    title={`Cadastrar Novo ${aba.slice(0, -2)}`}
                     color="#0066cc"
                     onPress={() => {
                         if (aba === 'sensores') navigation.navigate('CadastroSensor');
